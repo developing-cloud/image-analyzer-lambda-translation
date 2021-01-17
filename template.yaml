@@ -14,4 +14,4 @@ Resources:
       Timeout: 30
       Role: !Sub arn:aws:iam::${AWS::AccountId}:role/lambda_exec_role
       Layers: 
-        - !Sub arn:aws:lambda:${AWS::Region}:${AWS::AccountId}:layer:image-analyzer-lambda-layer:3
+        - !Sub arn:aws:lambda:${AWS::Region}:${AWS::AccountId}:layer:image-analyzer-lambda-layer:6
